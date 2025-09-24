@@ -33,3 +33,62 @@ header .container{
     text-transform: uppercase;
 }
 
+/* GOAL & MOTTO SECTION */
+
+.goalmotto-section {
+    font-family: Bebas Neue, sans-serif;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+#mission-container{
+    background: #b30000;
+    padding: 2rem;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: 0 6px 16x rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    text-align:center;
+}
+
+/* when the user hovers over the "our mission" box, it will slightly lift up */
+#mission-container:hover{
+    transform: translateY(-6px);
+}
+
+#mission-container h3{
+    color:white;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+}
+
+#motto-container{
+    display: flex;
+    background:white;
+    color: #b30000;
+    padding: 2rem;
+    border: 3px solid #b30000;
+    border-radius: 1rem;
+    justify-content: center;
+    font-weight: bold;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+#motto-container:hover{
+    transform: scale(1.05);
+}
+
+#motto-container h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
