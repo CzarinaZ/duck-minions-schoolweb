@@ -134,10 +134,10 @@ header .container{
 
 /* Footer Section */
 footer{
-    background: #343434;
+    background: #f0f0f0;
     padding-top: 50px;
     padding-bottom: 50px;
-    color:white;
+    color:black;
 }
 
 .container{
@@ -152,12 +152,17 @@ footer{
 }
 
 .footer-content h3{
-    font-size: 28px;
+    font-size: 26px;
     margin-bottom: 15px;
     text-align:center;
 }
 .footer-content-1 h3{
-    font-size: 28px;
+    font-size: 26px;
+}
+.footer-content-1 p{
+    font-size: 1.05rem;
+    text-align:left;
+   
 }
 
 .footer-content p{
@@ -213,10 +218,72 @@ footer{
 }
 a{
     text-decoration:none;
+    color: #6e0101;
+    font-weight: 550;
 }
 a:hover{
-    color: #b00000;
+    color: gold;
 }
 .social-icons i:hover{
     color: #b00000;
+}
+
+/* About Us Section */
+.about-us-section{
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    text-align: center;
+    
+}
+.about-info{
+    padding:20px;
+    line-height: 1.6;
+    font-size:1.1rem;
+    border-bottom:#b00000 solid 3px;
+    margin-bottom: 20px;
+    font-size:16px;
+}
+
+.about-info h2{
+    font-size: 2rem;
+    color: #6e0101;
+    margin-bottom: 1rem;
+}
+#aboutus-top h1{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#aboutus-top p{
+    padding-top:10px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 1rem;
+}
+
+#aboutus-top img{
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+   
+}
+
+#map img{
+    width:450px;
+    height:300px;
+}
+#parking p{
+    padding-left:10rem;
+    padding-right:10rem;
+    text-align:left;
+}
+#parking h3{
+    text-align: left;
+    padding-left:80px;
+    margin-bottom:10px;
 }
