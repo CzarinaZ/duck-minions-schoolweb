@@ -4,25 +4,79 @@
     box-sizing: border-box;
 }
 
-/*Header Section */
-header{
-    background-color:white;
-    border-bottom: 5px solid #b00000;
-    padding: 10px 0px;
+/* Header Section*/
+header {
+  background: #fff;
+  border-bottom: 5px solid #b00000;
+  padding: 10px 0;
 }
 
-header .container{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.logo-image img{
-    height: 70px;
+/* Branding (Logo + School Name) */
+.branding {
+  display: flex;
+  align-items: center;
 }
+
+.school-logo {
+  height: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.school-name h1 {
+  margin: 0;
+  padding-left: 12px;
+  font-size: 24px;
+  font-family: "Bebas Neue", sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  border-left: 4px solid #b00000;
+}
+
+/* Logo-based Navigation */
+.logo-wrapper {
+  position: relative; /* ensures dropdown is positioned correctly */
+}
+
+.logo-menu {
+  display: none;
+  position: absolute;
+  top: 100%;   /* drops directly below logo */
+  left: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  padding: 10px;
+  min-width: 180px;
+  z-index: 1000;
+}
+
+.logo-menu a {
+  display: block;
+  padding: 8px 12px;
+  color: #6e0101;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.logo-menu a:hover {
+  background: #f0f0f0;
+}
+
+/* Show menu when logo-wrapper is hovered */
+.logo-wrapper:hover .logo-menu {
+  display: block;
+}
+
 /* Organization and links section*/
 .info-container{
     position: relative;
@@ -62,14 +116,6 @@ header .container{
     letter-spacing: 1.05;
     padding: 20px 10px;
     background-color: rgba(0,0,0,0.6);
-}
-.school-name h1{
-    font-size: 24px;
-    color: black;
-    padding-left: 12px;
-    border-left: 4px solid #b00000;
-    font-family: Bebas Neue, sans-serif;
-    text-transform: uppercase;
 }
 
 /* GOAL & MOTTO SECTION */
