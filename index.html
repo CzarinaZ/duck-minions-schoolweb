@@ -5,42 +5,115 @@
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+        <!--Link to the webpage's stylesheet-->
+        <link rel="stylesheet" href="style.css"/>
 
     </head>
     <body>
+        <!--Header Section-->
         <header>
           <div class="container">
-            <div class="logo-image">
-
-            </div>
-            <div class="school-name">
-                <h1>Cleveland High School</h1>
+            <div class="branding">
+                <div class="logo-wrapper">
+                    <a href="#" class="logo-nav">
+                        <img class="school-logo" src="assets/School_Logo.jpg" alt="Cleveland Highschool Logo">
+                    </a>
+                    <!--Nav menu inside logo-->
+                    <div class="logo-menu">
+                        <a href="index.html">Home</a>
+                        <a href="aboutus.html">About Us</a>
+                        <a href="calendar.html">Calendar</a>
+                        <a href="classes.html">Classes</a>
+                        <a href="clubs.html">Sports and Clubs</a>
+                    </div>
+                </div>
+                <div class="school-name">
+                    <h1>Cleveland High School</h1>
+                </div>
             </div>
           </div>
         </header>
 
         <main>
-            <!--Organization Information Section-->
-            <p>Welcome to Cleveland High School! We are a STEM highschool that is located
+            <!--Links to Other pages section-->
+            <div class="info-container">
+                <div class="overlay"></div>
+                <div class="info-section">
+                <!--Organization Information Section-->
+                    <div id="organization-section">
+                        <p>Welcome to Cleveland High School! We are a STEM highschool that is located
                 in Seattle, Washington and we are operated as a part of the Seattle Public Schools system
                 that serves the Beacon Hill and Georgetown neighborhoods.</p>
-            <p>School Hours: 8:50 a.m.- 3:40 p.m.</p>
-            <p>Wednesdays: 8:50 a.m.- 3:40 p.m.</p>
-            <p>Attendance: 206-252-7804</p>
-            <p>Office Phone: 206-252-7800</p>
-            <p>Principal</p>
-            <p>Jeffery Lam</p>
-            <p><a href="mailto:jklam@seattleschools.org">jklam@seattleschools.org</a></p>
-        <div class="container">
-            <img src="cleveland webibset red.png" alt="Cleveland red"
-            style="width:100;">
-    
-        </div>
-            <!--Links to Other pages section-->
+                        <p>School Hours: 8:50 a.m.- 3:40 p.m.</p>
+                        <p>Wednesdays: 8:50 a.m.- 3:40 p.m.</p>
+                        <p>Attendance: 206-252-7804</p>
+                        <p>Office Phone: 206-252-7800</p>
+                        <p>Principal</p>
+                        <p>Jeffery Lam</p>
+                        <p><a href="mailto:jklam@seattleschools.org">jklam@seattleschools.org</a></p>
+                    <div class="container">
+                        <img src="cleveland webibset red.png" alt="Cleveland red"
+                        style="width:100;">
 
+                    </div>
+                    </div>
+                <!--Links to Other pages section-->
+                    <div id="links-section">
+                        <a href="calendar.html">
+                        <img src="https://icons.veryicon.com/png/o/miscellaneous/face-monochrome-icon/calendar-249.png" alt="calendar Icon" width="90" height="112">
+                        </a>
+                        <a href="classes.html">
+                        <img src="https://static.thenounproject.com/png/117741-200.png" alt="Classes Icon" width="90" height="112">
+                        </a>
+                        <a href="clubs.html">
+                        <img src="https://static.thenounproject.com/png/5331143-200.png" alt="Clubs Icon" width="90" height="112">
+                        </a>
+                    </div>
+                </div>
+                <img class="building-photo" src="assets/cleveland-photo.jpg" alt="Cleveland HS building photo">
+            </div>
             <!--Goals and Motto Section-->
-
+            <div class="goalmotto-section">
+                <div id="mission-container">
+                    <h3>Our Mission</h3>
+                    <p>Cleveland High School’s mission is to provide real world preparation for real world success in personalized, relevant and rigorous small learning communities.”</p>
+                </div>
+                <div id="motto-container">
+                    <h2>WE DO DIFFERENT BETTER</h2>
+                </div>
+            </div>
             <!--Footers Sections-->
+            <footer>
+                <div class="container">
+                    <div class="footer-content-1">
+                        <h3>Cleveland Highschool</h3><br>
+                        <p>5511 15th Ave. S<br>Seattle, WA 98108</p><br>
+                        <p><strong>Contact Us</strong></p>
+                        <p>Office Phone: (206) 252-7800</p>
+                        <p>Fax: (206) 252-7801</p>
+                    </div>
+                    <div class="footer-content">
+                        <h3>Quick Links</h3>
+                        <ul class="list">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="calendar.html">Calendar</a></li>
+                            <li><a href="classes.html">Classes</a></li>
+                            <li><a href="clubs.html">Sports and Clubs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-content">
+                        <ul class="social-icons">
+                            <h3>Follow Us</h3>
+                            <li><a href="https://www.facebook.com/SeattlePublicSchools"><i class="fab fa-facebook"></i> Facebook</a></li>
+                            <li><a href="https://www.instagram.com/clevelandhsasb/"><i class="fab fa-instagram"></i> Instagram</a></li>
+                            <li><a href="https://x.com/seapubschools"><i class="fab fa-x-twitter"></i> X (Twitter)</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </footer>
         </main>
     </body>
 </html>
