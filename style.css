@@ -98,11 +98,12 @@ header .container {
     background-color:rgba(0,0,0,0.5);
 }
 .info-section{
+    font-family: Bebas Neue, sans-serif;
     position: absolute;
     top:50%;
     left: 40%;
     transform:translate(-50%, -50%);
-    color: black;
+    color: rgb(218, 210, 210);
     z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -110,13 +111,22 @@ header .container {
     max-width:1100px;
 }
 .info-section p{
-    font-size: 14px;
+    font-size: 25px;
     margin-bottom: 20px;
     letter-spacing: 1.05;
-    padding: 20px 10px;
-    background-color: rgba(255, 255, 255, 1);
+    padding: 20px 20px;
+    background-color: rgb(179, 0, 0);
 }
 
+.info-section a{
+    text-decoration:none;
+    color: rgb(39, 0, 179);
+    font-weight: 550;
+}
+
+.info-section a:hover{
+    color: orangered;
+}
 /* GOAL & MOTTO SECTION */
 
 .goalmotto-section {
