@@ -118,10 +118,14 @@ header .container {
 }
 
 #links-section{
+    /*position: absolute;*/
+    display: flex;
+    flex-direction: column;
     float: right;
-    margin-bottom: 20px;
-    padding: 20px 10px;
-    background-color: rgba(255, 255, 255, 1);
+    padding: 25px 25px;
+    background-color: #b30000;
+    font-family: Bebas Neue, sans-serif;
+    color: #f0f0f0;
 }
 
 /* GOAL & MOTTO SECTION */
