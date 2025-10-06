@@ -130,7 +130,7 @@ header .container {
 }
 #organization-section a:hover{
   color: pink;
-
+}
 #links-section{
     /*position: absolute;*/
     display: flex;
