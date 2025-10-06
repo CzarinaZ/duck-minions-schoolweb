@@ -110,22 +110,23 @@ header .container {
     gap: 30px;
     max-width:1100px;
 }
-.info-section p{
+#organization-section p{
     font-size: 25px;
     margin-bottom: 20px;
     letter-spacing: 1.05;
-    padding: 20px 20px;
-    background-color: rgb(179, 0, 0);
+    padding: 25px 25px;
+    background-color: #970000;
 }
 
-.info-section a{
-    text-decoration:none;
-    color: rgb(39, 0, 179);
-    font-weight: 550;
+#organization-section a{
+    text-decoration:underline;
+    color:rgb(99, 154, 199);
+    font-weight: 540;
+    font-size: 22px;
 }
 
-.info-section a:hover{
-    color: orangered;
+#organization-section a:hover{
+    color: pink;
 }
 /* GOAL & MOTTO SECTION */
 
