@@ -109,8 +109,11 @@ header .container {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     max-width:1100px;
+
+
 }
 #organization-section p{
+  
     font-size: 25px;
     margin-bottom: 20px;
     letter-spacing: 1.05;
@@ -123,10 +126,25 @@ header .container {
     color:rgb(99, 154, 199);
     font-weight: 540;
     font-size: 22px;
+    
+}
+#organization-section a:hover{
+  color: pink;
+
+#links-section{
+    /*position: absolute;*/
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding: 25px 25px;
+    background-color: #b30000;
+    font-family: Bebas Neue, sans-serif;
+    color: #f0f0f0;
 }
 
-#organization-section a:hover{
-    color: pink;
+.cleverImg{
+    position: relative;
+    right: 30px;
 }
 /* GOAL & MOTTO SECTION */
 
