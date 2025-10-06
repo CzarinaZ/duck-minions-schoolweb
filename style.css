@@ -108,13 +108,17 @@ header .container {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     max-width:1100px;
+
+
 }
-.info-section p{
-    font-size: 14px;
+#organization-section p{
+    font-family: Bebas Neue, sans-serif;
+    font-size: 25px;
     margin-bottom: 20px;
     letter-spacing: 1.05;
-    padding: 20px 10px;
-    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    background-color: #a00c0c;
+    
 }
 
 #links-section{
