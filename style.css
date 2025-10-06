@@ -121,12 +121,21 @@ header .container {
     
 }
 
-#organization-section a{
-    text-decoration: none;
-    color: pink;
-    font-weight:550;
+#links-section{
+    /*position: absolute;*/
+    display: flex;
+    flex-direction: column;
+    float: right;
+    padding: 25px 25px;
+    background-color: #b30000;
+    font-family: Bebas Neue, sans-serif;
+    color: #f0f0f0;
 }
 
+.cleverImg{
+    position: relative;
+    right: 30px;
+}
 
 /* GOAL & MOTTO SECTION */
 
