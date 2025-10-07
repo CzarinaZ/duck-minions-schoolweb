@@ -38,40 +38,46 @@
         <main>
             <!--Links to Other pages section-->
             <div class="info-container">
-                <div class="overlay"></div>
-                <div class="info-section">
-                <!--Orgasnization Information Section-->
-                    <div id="organization-section">
-                        <p>Welcome to Cleveland High School!<br>We are a STEM highschool that is located
-                in Seattle, Washington. We are operated as a part of the Seattle Public Schools system
-                that serves the Beacon Hill and Georgetown neighborhoods.</p>
-                        <p>School Hours: 8:50 a.m.- 3:40 p.m.
-                        <br>Wednesdays: 8:50 a.m.- 2:25 p.m.
-                        <br>Attendance: 206-252-7804
-                        <br>Office Phone: 206-252-7800<br>
-                        <br>Attendance Email:
-                        <br><a href="mailto:clevelandhs.attendance@seattleschools.org">clevelandhs.attendance@seattleschools.org</a>
-                        <br>Principal: Jeffery Lam
-                        <br><a href="mailto:jklam@seattleschools.org">jklam@seattleschools.org</a>
-                        </p>
-                    </div>
-                <!--Links to Other pages section-->
-                    <div id="links-section">
-                        <h3>Popular Logins</h3>
-                        <br>
-                        <a href="https://clever.com/in/seattleschools">
-                            <img class="cleverImg" src="https://logos-world.net/wp-content/uploads/2025/01/Clever-Symbol.png" alt="calendar Icon" width="165" height="112"> Clever
-                        </a>
-                        <a href="https://districtlms.seattleschools.org/">
-                            <img src="https://i0.wp.com/www.mpslakers.com/wp-content/uploads/2020/01/schoology-logo.png?fit=511%2C511&ssl=1" alt="Classes Icon" width="90" height="112"> Schoology
-                        </a>
-                        <a href="https://ps.seattleschools.org/">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw9XDMN2DT9HxtJmjVxbD6Pgzu0e7q912ghA&s" alt="Clubs Icon" width="90" height="112"> Source
-                        </a>
-                    </div>
-                </div>
                 <img class="building-photo" src="assets/cleveland-photo.jpg" alt="Cleveland HS building photo">
-            </div>
+                <div class="overlay"></div>
+              
+                <div class="info-section">
+                  <!-- Organization Info -->
+                  <div id="organization-section">
+                    <h3>Welcome to <br>Cleveland High School!</h3><p><br>We are a STEM high school located in Seattle, Washington. We are part of the Seattle Public Schools system serving the Beacon Hill and Georgetown neighborhoods.</p>
+                    <p><br>
+                      School Hours: 8:50 a.m.–3:40 p.m.<br>
+                      Wednesdays: 8:50 a.m.–2:25 p.m.<br>
+                      Attendance: 206-252-7804<br>
+                      Office Phone: 206-252-7800<br>
+                      <br>Attendance Email: 
+                      <a href="mailto:clevelandhs.attendance@seattleschools.org">clevelandhs.attendance@seattleschools.org</a><br>
+                      Principal: Jeffery Lam<br>
+                      <a href="mailto:jklam@seattleschools.org">jklam@seattleschools.org</a>
+                    </p>
+                  </div>
+              
+                  <!-- Popular Logins -->
+                  <div id="links-section">
+                    <h3>Popular Logins</h3>
+                    <div class="icons">
+                      <a href="https://clever.com/in/seattleschools" class="login-card">
+                        <img class="cleverImg" src="https://logos-world.net/wp-content/uploads/2025/01/Clever-Symbol.png" alt="Clever Logo">
+                        <span>Clever</span>
+                      </a>
+                      <a href="https://districtlms.seattleschools.org/" class="login-card">
+                        <img src="https://i0.wp.com/www.mpslakers.com/wp-content/uploads/2020/01/schoology-logo.png?fit=511%2C511&ssl=1" alt="Schoology Logo">
+                        <span>Schoology</span>
+                      </a>
+                      <a href="https://ps.seattleschools.org/" class="login-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw9XDMN2DT9HxtJmjVxbD6Pgzu0e7q912ghA&s" alt="Source Logo">
+                        <span>Source</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             <!--Goals and Motto Section-->
             <div class="goalmotto-section">
                 <div id="mission-container">
@@ -82,6 +88,20 @@
                     <h2>WE DO DIFFERENT BETTER</h2>
                 </div>
             </div>
+            <script>
+                document.addEventListener("scroll", () => {
+                  const section = document.querySelector(".goalmotto-section");
+                  const rect = section.getBoundingClientRect();
+                  const inView = rect.top < window.innerHeight - 100 && rect.bottom > 100;
+                
+                  if (inView) {
+                    section.classList.add("active");
+                  } else {
+                    section.classList.remove("active"); // removes when out of view
+                  }
+                });
+            </script>
+                
             <!--Footers Sections-->
             <footer>
                 <div class="container">
