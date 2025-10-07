@@ -78,7 +78,6 @@ header .container {
 
 /* Organization and links section*/
 
-
 .building-photo{
     width: 100%;
     height: 100%;
@@ -428,6 +427,8 @@ a:hover{
 .social-icons i:hover{
     color: #b00000;
 }
+
+
 
 /* About Us Section */
 .about-us-section{
