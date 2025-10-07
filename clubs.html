@@ -7,7 +7,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
         <!--Link to the webpage's stylesheet-->
-        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="sports.css"/>
+        <!--Icons for each sport-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
     </head>
     <body>
         <!--Header Section-->
@@ -33,64 +36,123 @@
             </div>
           </div>
         </header>
-        <main>
-        <!--Sports Section-->
-        <div class="sports-section">
+        <main id="sports-page">
             <h1>School Sports</h1>
-            <div class="boys-sports">
-                <h4>Boys</h4>
-                <ul>
-                    <li>Baseball</li>
-                    <li>Basketball</li>
-                    <li>Cross Country</li>
-                    <li>Football</li>
-                    <li>Lacrosse</li>
-                    <li>Soccer</li>
-                    <li>Track and Field</li>
-                    <li>Wrestling</li>
-                </ul>
+
+            <div class="sports-grid">
+                <!-- Fall Sports -->
+                <section id="fall-sports">
+                <h2>🍂 Fall Sports</h2>
+                <div class="gender-group boys">
+                    <h3>Boys</h3>
+                    <ul>
+                    <li>🏈 Football</li>
+                    <li>⛳ Boys Golf</li>
+                    <li>🏃‍♂️ Boys Cross Country</li>
+                    <li>🥏 Boys Ultimate</li>
+                    </ul>
+                </div>
+                <div class="gender-group girls">
+                    <h3>Girls</h3>
+                    <ul>
+                    <li>🏐 Volleyball</li>
+                    <li>⛳ Girls Golf</li>
+                    <li>⚽ Girls Soccer</li>
+                    <li>🏃‍♀️ Girls Cross Country</li>
+                    <li>🏊‍♀️ Girls Swim</li>
+                    <li>🥎 Slowpitch Softball</li>
+                    </ul>
+                </div>
+                <div class="gender-group coed">
+                    <h3>Coed</h3>
+                    <ul>
+                    <li>📣 Fall Cheer</li>
+                    </ul>
+                </div>
+                </section>
+
+                <!-- Winter Sports -->
+                <section id="winter-sports">
+                <h2>❄️Winter Sports</h2>
+                <div class="gender-group boys">
+                    <h3>Boys</h3>
+                    <ul>
+                    <li>🏀 Boys Basketball</li>
+                    <li>🤼 Boys Wrestling</li>
+                    <li>🏊‍♂️ Boys Swim</li>
+                    </ul>
+                </div>
+                <div class="gender-group girls">
+                    <h3>Girls</h3>
+                    <ul>
+                    <li>🏀 Girls Basketball</li>
+                    <li>🤼‍♀️ Girls Wrestling</li>
+                    <li>🎳</i> Girls Bowling</li>
+                    </ul>
+                </div>
+                <div class="gender-group coed">
+                    <h3>Coed</h3>
+                    <ul>
+                    <li>💃 Dance &amp; Drill</li>
+                    </ul>
+                </div>
+                </section>
+
+                <!-- Spring Sports -->
+                <section id="spring-sports">
+                <h2>🌸Spring Sports</h2>
+                <div class="gender-group boys">
+                    <h3>Boys</h3>
+                    <ul>
+                    <li>⚾ Baseball</li>
+                    <li>⚽ Boys Soccer</li>
+                    <li>🎾 Boys Tennis</li>
+                    <li>🏃‍♂️ Boys Track</li>
+                    </ul>
+                </div>
+                <div class="gender-group girls">
+                    <h3>Girls</h3>
+                    <ul>
+                    <li>🥎 Fastpitch Softball</li>
+                    <li>🎾 Girls Tennis</li>
+                    <li>🏃‍♀️ Girls Track</li>
+                    <li>🥏 Girls Ultimate</li>
+                    </ul>
+                </div>
+                </section>
             </div>
-            <div class="girls-sports">
-                <h4>Girls</h4>
-                <ul>
-                    <li>Basketball</li>
-                    <li>Golf</li>
-                    <li>Soccer</li>
-                    <li>Softball</li>
-                    <li>Volleyball</li>
-                </ul>
-            </div>
-        </div>
-        <!--Footer Section-->
-            <footer>
-                <div class="container">
-                        <div class="footer-content-1">
-                            <h3>Cleveland Highschool</h3><br>
-                            <p>5511 15th Ave. S<br>Seattle, WA 98108</p><br>
-                            <p><strong>Contact Us</strong></p>
-                            <p>Office Phone: (206) 252-7800</p>
-                            <p>Fax: (206) 252-7801</p>
-                        </div>
-                        <div class="footer-content">
-                            <h3>Quick Links</h3>
-                            <ul class="list">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="calendar.html">Calendar</a></li>
-                                <li><a href="classes.html">Classes</a></li>
-                                <li><a href="clubs.html">Sports and Clubs</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-content">
-                            <ul class="social-icons">
-                                <h3>Follow Us</h3>
-                                <li><a href="https://www.facebook.com/SeattlePublicSchools"><i class="fab fa-facebook"></i> Facebook</a></li>
-                                <li><a href="https://www.instagram.com/clevelandhsasb/"><i class="fab fa-instagram"></i> Instagram</a></li>
-                                <li><a href="https://x.com/seapubschools"><i class="fab fa-x-twitter"></i> X (Twitter)</a></li>
-                            </ul>
-                        </div>
-                    </div>
-            </footer>
         </main>
+
+
+        <!--Footer Section-->
+        <footer>
+            <div class="container">
+                <div class="footer-content-1">
+                    <h3>Cleveland Highschool</h3><br>
+                    <p>5511 15th Ave. S<br>Seattle, WA 98108</p><br>
+                    <p><strong>Contact Us</strong></p>
+                    <p>Office Phone: (206) 252-7800</p>
+                    <p>Fax: (206) 252-7801</p>
+                </div>
+                <div class="footer-content">
+                    <h3>Quick Links</h3>
+                    <ul class="list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="calendar.html">Calendar</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="clubs.html">Sports and Clubs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <ul class="social-icons">
+                        <h3>Follow Us</h3>
+                        <li><a href="https://www.facebook.com/SeattlePublicSchools"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="https://www.instagram.com/clevelandhsasb/"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="https://x.com/seapubschools"><i class="fab fa-x-twitter"></i> X (Twitter)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>           
     </body>
 </html>

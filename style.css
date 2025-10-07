@@ -43,7 +43,7 @@ header .container {
 
 /* Logo-based Navigation */
 .logo-wrapper {
-  position: relative; /* ensures dropdown is positioned correctly */
+  position: relative;
 }
 
 .logo-menu {
@@ -381,7 +381,6 @@ footer{
 .list{
     padding: 0;
 }
-
 .list li{
     width: auto;
     text-align: center;
@@ -390,7 +389,6 @@ footer{
     position: relative;
     
 }
-
 .list li::before{
     content: '';
     position: absolute;
@@ -467,12 +465,14 @@ a:hover{
     font-size: 1rem;
 }
 
-#aboutus-top img{
-    width: 600px;
-    height: 300px;
-    margin-top: 20px;
-    border-radius: 10px;
-   
+#aboutus-top img {
+  display: block;
+  margin: 1.5rem auto; /* centers it horizontally */
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 #map img{
@@ -491,4 +491,3 @@ a:hover{
 }
 
 
-/* CLUBS SECTION */
