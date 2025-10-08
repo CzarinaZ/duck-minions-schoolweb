@@ -79,7 +79,7 @@ header .container {
 /* SPORTS PAGE STYLING */
 
 #sports-page {
-  background-color: var(--gray-bg);
+  background-color: #b00000;
   font-family: "Roboto", sans-serif;
   padding: 4rem 2rem;
 }
@@ -93,6 +93,7 @@ header .container {
   margin-bottom: 3rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color:white;
 }
 
 /* Grid layout for seasons */
@@ -111,6 +112,8 @@ header .container {
   padding: 2rem;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color:white;
+  
 }
 
 #sports-page section:hover {
