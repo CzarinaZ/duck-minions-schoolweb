@@ -179,7 +179,7 @@ header .container {
   
   /* ------Right: Popular Logins ------- */
   #links-section {
-    background: rgba(151, 0, 0, 0.9);
+    background: rgba(204, 0, 0, 0.9);
     color: var(--white);
     border-radius: 10px;
     padding: 2rem;
