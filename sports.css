@@ -78,7 +78,7 @@ header .container {
 
 /* SPORTS PAGE STYLING */
 
-#sports-page {
+#sports-page{
   background-color: rgba(204, 0, 0, 0.9);
   font-family: "Roboto", sans-serif;
   padding: 4rem 2rem;
@@ -202,6 +202,29 @@ header .container {
   }
 }
 
+/* clubs page section  */
+#clubs-page h1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  color: var(--red);
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:rgb(245, 242, 242);
+}
+
+#clubs-page .clubs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
 /* Footer Section */
 footer{
     background: #f0f0f0;
@@ -295,3 +318,5 @@ a:hover{
 .social-icons i:hover{
     color: #b00000;
 }
+
+
