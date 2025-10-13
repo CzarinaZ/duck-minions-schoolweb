@@ -83,7 +83,7 @@ header .container {
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 50%;
   border: none;
   text-align: left;
   outline: none;
@@ -95,10 +95,10 @@ header .container {
 }
 
 .content {
-  padding: 0 18px;
+  padding: 0 30px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 }
 #schedule-img{
   width: 450px;
