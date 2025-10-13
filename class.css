@@ -100,7 +100,11 @@ header .container {
   overflow: hidden;
   background-color: #f1f1f1;
 }
+#schedule-img{
+  width: 450px;
+  height: 600px;
 
+}
 /* Footer Section */
 footer{
     background: #f0f0f0;
