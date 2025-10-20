@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
-
+        <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
         <!--stylesheet-->
         <link rel="stylesheet" href="class.css"/>
     </head>
@@ -36,67 +36,99 @@
         </header>
 
         <main>
+            <div class="layout-container">
             <!--Classes-->
-            <button type="button" class="collapsible" id = "math-top">Math</button>
-            <div class="content">
-            <ul>
-                <li>Algebra 1</li>
-                <li>Geomentry</li>
-                <li>Algebra 2</li>
-                <li>Pre-Calculus</li>
-                <li>AP Calculus</li>
-                <li>AP Statistics</li>
-            </ul>
+                <div class="classes-grid">
+                    <h1>Classes Offered</h1>
+                <!--Math-->
+                    <button type="button" class="collapsible" id = "math-top">Math</button>
+                    <div class="content">
+                        <div class="class-info-layout">
+                            <ul class="class-list">
+                                <li data-info="sldkfjalskjdflsjlkjkdjjfj">Algebra 1</li>
+                                <li data-info="sldkfjalsksfkdjjfj">Geomentry</li>
+                                <li data-info="sldkfjalskjdflsjlkjkdjjfj">Algebra 2</li>
+                                <li data-info="sldkfjalskjdflsjlkjkdjjfj">Pre-Calculus</li>
+                                <li data-info="fssfsfssssssssssssss">AP Calculus</li>
+                                <li data-info="sldkfsfsfsfsfsfsfslkjkdjjfj">AP Statistics</li>
+                            </ul>
+                            <div class="info-box">Hover over a class to see more information.</div>
+                        </div>
+                    </div>
+
+                    <!--Science-->
+                    <button type="button" class="collapsible">Science</button>
+                    <div class="content">
+                        <div class="class-info-layout">
+                            <ul class="class-list">
+                                <li>Physics A</li>
+                                <li>Chemistry A</li>
+                                <li>Biology</li>
+                                <li>Physics B</li>
+                                <li>Chemistry B</li>
+                                <li>AP Chemistry</li>
+                                <li>AP Physics</li>
+                            </ul>
+                            <div class="info-box">Hover over a class to see more information.</div>
+                        </div> 
+                    </div>
+
+                    <!--Humanities-->
+                    <button type="button" class="collapsible">Humanities</button>
+                    <div class="content">
+                        <div class="class-info-layout">
+                            <ul class="class-list">
+                                <li>Intro to Lit & Comp 9A/9B Honors</li>
+                                <li>Intro to Lit & Comp 9A/9B Honors</li>
+                                <li>World Literature & Composition 10A/10B Honors</li>
+                                <li>Latinx American Literature & Composition 11A/11B</li>
+                                <li>English 131 Composition</li>
+                                <li>English 111 Composition Literature</li>
+                                <li>College Prep Literacy 1 A/B</li>
+                            </ul>
+                            <div class="info-box">Hover over a class to see more information.</div>
+                        </div>
+                    </div>
+
+                    <!--Pathways-->
+                    <button type="button" class="collapsible">Pathways</button>
+                    <div class="content">
+                        <div class="class-info-layout">
+                            <ul class="class-list">
+                                <li>SOLS</li>
+                                <li>SOED</li>
+                                <li>SOCS</li>
+                            </ul> 
+                            <div class="info-box">Hover over a class to see more information.</div>
+                        </div>
+                    </div>
+
+                    <!--Electives-->
+                    <button type="button" class="collapsible">Electives</button>
+                    <div class="content">
+                        <div class="class-info-layout">
+                            <ul class="class-list">
+                                <li>Publish Yearbook 1-2</li>
+                                <li>Recording Arts 1&2</li>
+                                <li>Concert Band & Orchestra</li>
+                                <li>Symphonic Orchestra & Band</li>
+                                <li>Drawing & Painting</li>
+                                <li>Graphic Design Beginning</li>
+                                <li>Video Beginning A</li>
+                            </ul>
+                            <div class="info-box">Hover over a class to see more information.</div>
+                        </div>
+                    </div>
+                </div>
                 
-            </div>
-            <button type="button" class="collapsible">Science</button>
-            <div class="content">
-            <ul>
-                <li>Physics A</li>
-                <li>Chemistry A</li>
-                <li>Biology</li>
-                <li>Physics B</li>
-                <li>Chemistry B</li>
-                <li>AP Chemistry</li>
-                <li>AP Physics</li>
-            </ul>
-                
-            </div>
-            <button type="button" class="collapsible">Humanities</button>
-            <div class="content">
-            <ul>
-                <li>Intro to Lit & Comp 9A/9B Honors</li>
-                <li>Intro to Lit & Comp 9A/9B Honors</li>
-                <li>World Literature & Composition 10A/10B Honors</li>
-                <li>Latinx American Literature & Composition 11A/11B</li>
-                <li>English 131 Composition</li>
-                <li>English 111 Composition Literature</li>
-                <li>College Prep Literacy 1 A/B</li>
-            </ul>
-            </div>
-            <button type="button" class="collapsible">Pathways</button>
-            <div class="content">
-            <ul>
-                <li>SOLS</li>
-                <li>SOED</li>
-                <li>SOCS</li>
-            </ul> 
-            </div>
-            <button type="button" class="collapsible">Electives</button>
-            <div class="content">
-            <ul>
-                <li>Publish Yearbook 1-2</li>
-                <li>Recording Arts 1&2</li>
-                <li>Concert Band & Orchestra</li>
-                <li>Symphonic Orchestra & Band</li>
-                <li>Drawing & Painting</li>
-                <li>Graphic Design Beginning</li>
-                <li>Video Beginning A</li>
-            </ul>
+                <!--Red Line in the middle of the two-->
+                <div class="divider>"></div>
+
+                <!--Schedule Image-->
+                <img id="schedule-img" src="assets/AB DAY SCHEDULE.jpg" alt="Cleveland Highschool Bell Schedule 2025-26">
             </div>
 
-            <!--<img id="schedule-img" src="assets/AB DAY SCHEDULE.jpg" alt="Cleveland Highschool Bell Schedule 2025-26"> -->
-
+            <!--Script for the collapsible-->
             <script>
                 var coll = document.getElementsByClassName("collapsible");
                 var i;
@@ -112,6 +144,23 @@
                     }
                 });
                 }
+            </script>
+
+            <!-- Script for the info panel/box-->
+             <script>
+                document.querySelectorAll(".class-info-layout").forEach(layout => {
+                const infoBox = layout.querySelector(".info-box");
+                const items = layout.querySelectorAll(".class-list li");
+
+                items.forEach(item => {
+                    item.addEventListener("mouseenter", () => {
+                    infoBox.textContent = item.getAttribute("data-info");
+                    });
+                    item.addEventListener("mouseleave", () => {
+                    infoBox.textContent = "Hover over a class to see more information.";
+                    });
+                });
+                });
             </script>
         </main>
         
